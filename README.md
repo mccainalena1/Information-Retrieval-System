@@ -5,7 +5,7 @@
 [![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)]()  
 
 ## 📖 Project Overview  
-Implementation of an Information Retrieval system supporting indexing, ranking, and query optimization. Includes experiments with search engine concepts and evaluation of retrieval quality.  
+End-to-end information retrieval system with indexing, ranking, and query optimization. Implements inverted indexes and evaluates search performance across datasets using Python and Jupyter.  
 
 ## 📂 Repository Structure  
 ```
