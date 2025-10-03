@@ -1,85 +1,55 @@
-# Information Retrieval System
+# 📦 Information Retrieval System
 
-This repository contains an **Information Retrieval (IR) System** implemented as part of a graduate-level course project.  
-The system is designed to index and retrieve documents from the **Cranfield dataset**, evaluate retrieval effectiveness, and provide experimental results.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+[![Python](https://img.shields.io/badge/Python-3.8+-blue)]()  
+[![Jupyter](https://img.shields.io/badge/Notebook-Jupyter-orange)]()  
 
----
+## 📖 Project Overview  
+Implementation of an Information Retrieval system supporting indexing, ranking, and query optimization. Includes experiments with search engine concepts and evaluation of retrieval quality.  
 
-## 📖 Project Overview
-
-The Cranfield collection is a widely used benchmark dataset for IR evaluation.  
-This project implements indexing, ranking, and query processing, and reports performance using standard IR evaluation metrics.  
-
-- **Dataset**: Cranfield collection  
-- **Core functionality**: Indexing, retrieval, and evaluation  
-- **Output**: Ranked retrieval results, figures, and a formal evaluation report  
-
-For details of the assignment, see [docs/project1-2023_v3.pdf](docs/project1-2023_v3.pdf).  
-For results and analysis, see [results/Evaluation.pdf](results/Evaluation.pdf).  
-
----
-
-## 📂 Repository Structure
+## 📂 Repository Structure  
 ```
-.
-├── src/
-│   ├── assignment1.py          # main retrieval pipeline
-│   └── Untitled.ipynb          # exploratory notebook
-├── data/
-│   └── CranfieldDataset/       # Cranfield corpus
-├── results/
-│   ├── Evaluation.pdf          # final writeup
-│   ├── Evaluation.docx
-│   └── Figures/                # evaluation plots & screenshots
-├── docs/
-│   └── project1-2023_v3.pdf    # assignment description
-├── requirements.txt
-├── LICENSE
-├── .gitignore
-└── README.md
-```
+├── src/           # Source code  
+├── notebooks/     # Jupyter notebooks (if applicable)  
+├── data/          # Input datasets or links to data sources  
+├── results/       # Reports, visualizations, slides  
+├── figures/       # Images/plots  
+├── requirements.txt  
+├── LICENSE  
+└── README.md  
+```  
 
----
-
-## ⚙️ Installation
-
-Clone the repository and set up a Python virtual environment:
-
+## ⚡ Quickstart  
 ```bash
 git clone https://github.com/mccainalena1/Information-Retrieval-System.git
 cd Information-Retrieval-System
-
-python -m venv .venv
-source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+jupyter notebook
 ```
 
----
+## 📊 Data  
+Brief description of datasets used (links or included files).  
 
-## 🚀 Usage
+## 🧠 Modeling Approach  
+Outline methods, algorithms, or models applied.  
 
-Run the retrieval system:
+## 🎯 Results & Artifacts  
+- Key findings, accuracy/metrics  
+- Reports and presentations in `/results`  
+- Visualizations in `/figures`  
 
-```bash
-python src/assignment1.py
-```
+## 🌐 Visualizations  
+Embed or link to plots, figures, or interactive artifacts.  
 
-- Ensure that the **Cranfield dataset** is located in `data/CranfieldDataset/`.
-- Output figures and results are generated in the `results/` directory.
+## 🔁 Reproducibility  
+- Random seeds used  
+- Instructions for rerunning experiments  
 
----
+## 🚀 Next Steps  
+Possible extensions, limitations, or future improvements.  
 
-## 📊 Results
+## 📜 License  
+This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.  
 
-- Final evaluation report: [`results/Evaluation.pdf`](results/Evaluation.pdf)  
-- Supplementary figures: [`results/Figures/`](results/Figures/)  
-
-The system demonstrates indexing and retrieval effectiveness using the Cranfield benchmark.  
-Performance metrics and observations are discussed in detail in the evaluation report.  
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).  
-© 2025 Alena McCain
+## 👤 Contact  
+**Alena McCain** — [LinkedIn](https://www.linkedin.com/in/alena-mccain-815a09136)  
